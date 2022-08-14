@@ -22,7 +22,7 @@ public class N_MeetingsInOneRoom {
             Pair p = new Pair(start[i],end[i]);
             arr[i]= p;
         }
-        // i dont know it either, as I have not even declared p1 and p2
+        // I do not know it either, as I have not even declared p1 and p2
         // this sort is confusing but the rest is easy to understand
         Arrays.sort(arr,(p1,p2)-> p1.end-p2.end);
         // I am assuming that one meeting is already taking place so count starts with 1
